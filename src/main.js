@@ -26,6 +26,7 @@ import  'vant/es/action-sheet/index.css'
 import  'vant/es/popup/index.css'
 import  'vant/es/pull-refresh/index.css'
 import 'vant/es/rate/index.css'
+import '@/assets/main.css'
 Vue.config.productionTip = false
 
 Vue.use(Card)
@@ -48,7 +49,6 @@ Vue.use(Popup)
 Vue.use(PullRefresh)
 Vue.use(Rate)
 Vue.prototype.$http = axios.create()
-
 new Vue({
   router,
   store,
